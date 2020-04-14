@@ -161,7 +161,7 @@ PRODUCT_PACKAGES += \
     libcamshim \
     libmm-qcamera \
     libui_shim \
-    Snap
+    libmm-qcamera
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
@@ -523,3 +523,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # Enable gestural navigation overlay to match default navigation mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
