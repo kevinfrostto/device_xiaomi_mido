@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_mido.mk
+     $(LOCAL_DIR)/derp_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_mido-user \
-    exthm_mido-userdebug \
-    exthm_mido-eng
+    derp_mido-user \
+    derp_mido-userdebug \
+    derp_mido-eng
