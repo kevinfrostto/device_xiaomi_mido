@@ -524,8 +524,8 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
 # Enable gestural navigation overlay to match default navigation mode
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+#PRODUCT_PRODUCT_PROPERTIES += \
+ #   ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # GCam Go
 PRODUCT_PACKAGES += \
